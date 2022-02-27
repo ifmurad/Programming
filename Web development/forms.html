@@ -5,12 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forms Demo</title>
 </head>
 
 <body>
     <h1>Forms Demo</h1>
-    <form action=""></form>
+
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="username" name="username">    
+        </p>
+        <p>
+            <label for="password">Enter a Password:</label>
+            <input id="password" type="password" placeholder="password">    
+        </p>
+        <p>
+            <label for="color">Choose a color:</label>
+            <input id="color" type="color">
+        </p>
+        <p>
+            <!-- Alternative way to label an input (less common) -->
+            <label>
+                Enter a Number:
+                <input type="number" placeholder="number">
+            </label>
+        </p>
+        <!-- this button doesn't submit the form b/c of the "type" attribute -->
+        <button type="button">Regular button (won't submit)</button>
+        <!-- this button submits the form! -->
+        <button>Submit!!!</button>
+        <!-- So does this one: -->
+        <input type="submit" value="Click Me!">
+    </form>
+    <hr>
+    <button>Not inside Form</button>
 </body>
 
 </html>
