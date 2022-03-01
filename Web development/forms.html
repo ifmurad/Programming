@@ -55,10 +55,44 @@
         <button>Search youtube</button>
     </form>
 
+    <h3>Search Yandex</h3>
+    <form action="https://yandex.com/search">
+        <input type="text" name="text">
+        <button>Search yandex</button>
+    </form>
+
     <h2>More Inputs!</h2>
     <form action="/birds">
-        <input type="checkbox" name="agree_tos" id="agree">
+        <input type="checkbox" name="agree_tos" id="agree" checked>
         <label for="agree">I agree to everything</label>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <p>
+            <label for="meal">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="">--Please choose an option--</option>
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese:</Select></label>
+            <input type="range" name="cheese_level" id="cheese" min="1" max="100" step="7" value="50">
+        </p>
+        <p>
+            <div>
+                <label for="">Any Special Requests?</label>
+            </div>
+            <textarea name="special request" id="request" cols="30" rows="10" placeholder="Write here..."></textarea>
+        </p>
+        <button>Submit</button>
     </form>
 </body>
 
