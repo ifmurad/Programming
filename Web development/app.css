@@ -1,14 +1,34 @@
-h2 {
-    color: white;
-    background-color: black;
+h1 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: red underline wavy;
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: cursive;
 }
 
-button {
-    color: rgb(26, 50, 153);
-    background-color: cyan;
+a {
+    text-decoration: none;
 }
 
 p {
-    color: olive;
-    background: orange;
+    line-height: 2;
+}
+
+body {
+    background-color: #f1faee;
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+h1, h2 {
+    color: #1d3557;
+}
+
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
 }
