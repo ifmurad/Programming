@@ -32,3 +32,13 @@ h1, h2 {
     background-color: #1d3557;
     color: #f1faee;
 }
+
+span {
+    color: blue;
+}
+
+.fish {
+    background-color: yellow;
+    color: #9b2226;
+    font-size: small;
+}
