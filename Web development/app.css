@@ -42,3 +42,7 @@ span {
     color: #9b2226;
     font-size: small;
 }
+
+hr + p {
+    font-weight: bold;
+}
