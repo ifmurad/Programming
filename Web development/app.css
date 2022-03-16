@@ -46,3 +46,7 @@ span {
 hr + p {
     font-weight: bold;
 }
+
+input[type = "password"] {
+    color: #9b2226;
+}
