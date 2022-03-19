@@ -50,3 +50,15 @@ hr + p {
 input[type = "password"] {
     color: #9b2226;
 }
+
+p::first-letter {
+    font-size: 30px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+::selection {
+    background-color: yellow;
+}
