@@ -1,10 +1,48 @@
+body {
+    margin: 0px;
+}
+
 div {
     width: 200px;
-    background-color: aqua;
     height: 300px;
 }
 
 h1 {
     background-color: aqua;
-    width: 200px;
+    width: 150px;
+    padding-left: 40px;
+    border: 5px solid #01160f;
+    border-radius: 10px;
+    margin: 20px 5px 20px;
+}
+
+#one {
+    background-color: #e9d8a6;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+#two {
+    background-color: #94d2bd;
+    border-color: rgba(19, 31, 31, 0.5);
+    border-width: 5px;
+    border-style: dashed;
+    border-left-color: #e9d8a6;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+#three {
+    background-color: #11abad;
+    border: 5px solid #01160f;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
 }
